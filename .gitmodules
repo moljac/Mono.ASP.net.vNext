@@ -1,0 +1,12 @@
+[submodule "ASP.net.Home"]
+	path = ASP.net.Home
+	url = https://github.com/aspnet/Home.git
+[submodule "MusicStore"]
+	path = MusicStore
+	url = https://github.com/aspnet/MusicStore.git
+[submodule "BugTracker"]
+	path = BugTracker
+	url = https://github.com/aspnet/BugTracker.git
+[submodule "MonoSamples.davidfowl.HelloWorldVNext"]
+	path = MonoSamples.davidfowl.HelloWorldVNext
+	url = https://github.com/davidfowl/HelloWorldVNext.git
