@@ -37,10 +37,23 @@ Mac OSX + Windows VMs Shared Folders:
 	sudo $CERTMGR -ssl -m https://go.microsoft.com
 	sudo $CERTMGR -ssl -m https://nugetgallery.blob.core.windows.net
 	sudo $CERTMGR -ssl -m https://nuget.org
+	sudo $CERTMGR -ssl -m https://www.myget.org/F/aspnetvnext/
 
 	mozroots --import --sync
 	
 	
+	curl https://raw.githubusercontent.com/aspnet/Home/master/kvminstall.sh | sh && source ~/.kre/kvm/kvm.sh && kvm upgrade
+	
+	# unzip needed!!!
+	curl https://raw.githubusercontent.com/aspnet/Home/master/kvminstall.sh | sh
+	source ~/.kre/kvm/kvm.sh 
+	kvm upgrade
+	
+	
+	export KRE_TRACE=1
+	LD_LIBRARY_PATH=/usr/local/lib/
+	export LD_LIBRARY_PATH
+	kpm restore
 	kpm restore -s https://www.myget.org/F/aspnetvnext/
 	
 
@@ -67,3 +80,22 @@ Mac OSX + Windows VMs Shared Folders:
 	git clone https://github.com/aspnet/BugTracker.git
 	git clone https://github.com/davidfowl/HelloWorldVNext.git
 	
+## Test steps
+
+	cd /tmp
+	rm -fr Mono.ASP.net.vNext/
+	git clone --recursive git://github.com/moljac/Mono.ASP.net.vNext.git
+	
+	
+	cd Mono.ASP.net.vNext/submodulez/forks-moljac/
+	cd ASP.net.vNext.davidfowl.HelloWolrdVNext/src/helloworldweb/
+	
+	kpm restore 
+	kpm restore -s https://www.myget.org/F/aspnetvnext/
+
+	
+	
+ Invalid certificate received from server.	
+ 
+*	[http://stackoverflow.com/questions/4926676/mono-webrequest-fails-with-https](http://stackoverflow.com/questions/4926676/mono-webrequest-fails-with-https)
+*	[http://www.mono-project.com/UsingTrustedRootsRespectfully](http://www.mono-project.com/UsingTrustedRootsRespectfully)
