@@ -1,27 +1,24 @@
-[submodule "submodulez/original/ASP.net.Home"]
-	path = submodulez/original/ASP.net.Home
-	url = https://github.com/aspnet/Home.git
-[submodule "submodulez/original/MusicStore"]
-	path = submodulez/original/MusicStore
-	url = https://github.com/aspnet/MusicStore.git
-[submodule "BugTracker"]
-	path = submodulez/original/BugTracker
-	url = https://github.com/aspnet/BugTracker.git
-[submodule "submodulez/original/MonoSamples.davidfowl.HelloWorldVNext"]
-	path = submodulez/original/MonoSamples.davidfowl.HelloWorldVNext
-	url = https://github.com/davidfowl/HelloWorldVNext.git
+[submodule "submodulez/forks-moljac/ASP.net.vNext.Home"]
+	path = submodulez/forks-moljac/ASP.net.vNext.Home
+	url = https://github.com/moljac/ASP.net.vNext.Home.git
+[submodule "submodulez/forks-moljac/ASP.net.vNext.BugTracker"]
+	path = submodulez/forks-moljac/ASP.net.vNext.BugTracker
+	url = https://github.com/moljac/ASP.net.vNext.BugTracker.git
 [submodule "submodulez/forks-moljac/ASP.net.vNext.MusicStore"]
 	path = submodulez/forks-moljac/ASP.net.vNext.MusicStore
 	url = https://github.com/moljac/ASP.net.vNext.MusicStore.git
 [submodule "submodulez/forks-moljac/ASP.net.vNext.davidfowl.HelloWolrdVNext"]
 	path = submodulez/forks-moljac/ASP.net.vNext.davidfowl.HelloWolrdVNext
 	url = https://github.com/moljac/ASP.net.vNext.davidfowl.HelloWorldVNext.git
-[submodule "submodulez/original/ASP.net.vNext.BugTracker.git"]
-	path = submodulez/original/ASP.net.vNext.BugTracker.git
-	url = https://github.com/moljac/ASP.net.vNext.BugTracker.git
-[submodule "submodulez/forks-moljac/ASP.net.vNext.BugTracker"]
-	path = submodulez/forks-moljac/ASP.net.vNext.BugTracker
-	url = https://github.com/moljac/ASP.net.vNext.BugTracker.git
-[submodule "submodulez/forks-moljac/ASP.net.vNext.Home"]
-	path = submodulez/forks-moljac/ASP.net.vNext.Home
-	url = https://github.com/moljac/ASP.net.vNext.Home.git
+[submodule "submodulez/original/ASP.net.Home"]
+	path = submodulez/original/ASP.net.Home
+	url = https://github.com/aspnet/Home.git
+[submodule "submodulez/original/MusicStore"]
+	path = submodulez/original/MusicStore
+	url = https://github.com/aspnet/MusicStore.git
+[submodule "submodulez/original/BugTracker"]
+	path = submodulez/original/BugTracker
+	url = https://github.com/aspnet/BugTracker.git
+[submodule "submodulez/original/HelloWorldVNext"]
+	path = submodulez/original/HelloWorldVNext
+	url = https://github.com/davidfowl/HelloWorldVNext.git
