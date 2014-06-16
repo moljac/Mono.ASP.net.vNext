@@ -1,7 +1,5 @@
 # Mono.ASP.net.vNext
 
-
-
 Mono.ASP.net.vNext playgorund
 
 ## Links references
@@ -10,15 +8,46 @@ Mono.ASP.net.vNext playgorund
 
 ## ASP.net vnext 2014-06
 
+For faster demoing on linux - git clone with submodules
+
+	git clone --recursive git://github.com/moljac/Mono.ASP.net.vNext.git
+
+or for older versions of git (<1.6.5)	
+
+	git clone git://github.com/moljac/Mono.ASP.net.vNext.git
+	cd bar
+	git submodule update --init --recursive
+	
 ### Windows 8.1
 
-c:\tmp
-cmd run as Administrator
+Mac OSX + Windows VMs Shared Folders:
+
+*	problem:	
+	running powershell installation scripts might fail because of shared folder security
+*	workaround/solution:	
+	move to physical hard disk (c:)	and run as Administrator (elevated)
+	c:\tmp	
+	cmd run as Administrator
+
 
 
 ## linux / mac
 
+	CERTMGR=/usr/local/bin/certmgr
+	sudo $CERTMGR -ssl -m https://go.microsoft.com
+	sudo $CERTMGR -ssl -m https://nugetgallery.blob.core.windows.net
+	sudo $CERTMGR -ssl -m https://nuget.org
 
+	mozroots --import --sync
+	
+	
+	kpm restore -s https://www.myget.org/F/aspnetvnext/
+	
+
+
+
+	
+	
 ## Submodules
 
 
