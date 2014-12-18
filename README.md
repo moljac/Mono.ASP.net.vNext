@@ -18,6 +18,8 @@ Mono.ASP.net.vNext playgorund
 	
 #### Mac + Linux
 
+	~/.kre
+	~/.kpm
 
 
 ### Log
