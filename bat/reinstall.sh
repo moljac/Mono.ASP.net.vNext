@@ -1,0 +1,4 @@
+
+
+./uninstall.sh
+./install.sh
