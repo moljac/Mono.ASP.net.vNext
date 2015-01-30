@@ -6,7 +6,29 @@ Mono.ASP.net.vNext playgorund
 
 *	[https://jabbr.net/#/rooms/AspNetvNext](https://jabbr.net/#/rooms/AspNetvNext)
 
-## ASP.net vnext 2014-06
+## ASP.net vnext 
+
+### Locations
+
+#### Windows
+
+	%USERPROFILE%\.kre
+	%USERPROFILE%\.kpm
+	KRE_HOME=C:\Program Files\KRE;%USERPROFILE%\.kre
+	
+#### Mac + Linux
+
+	~/.kre
+	~/.kpm
+
+
+### Log
+
+#### 2014-12
+
+
+
+#### 2014-06
 
 For faster demoing on linux - git clone with submodules
 
